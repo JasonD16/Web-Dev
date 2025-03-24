@@ -1,74 +1,84 @@
 * {
-	backgroun-color : white;
-	color: black;
-	font-size: 1em;
-	font-family: Tahoma;
-	font-weight: none;
-	text-decoration: none;
+  /* background-color : white; */
+  color: black;
+  font-size: 1em;
+  font-family: Tahoma;
+  font-weight: none;
+  text-decoration: none;
 }
 
 #main {
-	background-color: #414A4C;
+  background-color: #414a4c;
 }
 .logo {
-	width: 70px;
-	height: 70px;
-	padding: 0;
-	margin: 0;
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  margin: 0;
 }
 
 .Menu {
-	background-color: rgb(214, 224, 233);
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	left: 0;
-	list-style: none;
+  background-color: rgb(214, 224, 233);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  list-style: none;
 }
 
-
 li {
-	float: left;
+  float: left;
 }
 
 li a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 25px;
-	margin: 0;
-	list-style-type: none;
-	text-decoration: none;
-	width: 200px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  width: 200px;
 }
+
 .Menu_Right:hover {
-	color: white;
-	background-color: #4A646C;
+  color: white;
+  background-color: #4a646c;
 }
 
 .Menu_Right {
-	float: right;
-	padding-top: 0;
-	padding-bottom: 0;
-	background: transparent;
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: transparent;
 }
 
-.start {
-	margin-top: 70px;
+.Start_Main {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Start_ContactUs {
+  margin-top: 70px;
+}
+
+.Start_Municipality {
+  margin-top: 70px;
 }
 
 .baladiye_Box {
-	left: 0;	
-	display: inline-block;
-	height: 200px;
-	width: 200px;
-	margin: 10px;
-	overflow: hidden;
-	border: 5px solid white;
+  left: 0;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border: 5px solid white;
 }
+
 .baladiye_Box:hover {
-/*	box-shadow: 20px 20px 3px #EDE8D0;*/
-	border: 5px solid #8b0000;
+  /*	box-shadow: 20px 20px 3px #EDE8D0;*/
+  border: 5px solid #8b0000;
 }
