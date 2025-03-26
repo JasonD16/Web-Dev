@@ -1,5 +1,4 @@
 * {
-  /* background-color : white; */
   color: black;
   font-size: 1em;
   font-family: Tahoma;
@@ -81,4 +80,17 @@ li a {
 .baladiye_Box:hover {
   /*	box-shadow: 20px 20px 3px #EDE8D0;*/
   border: 5px solid #8b0000;
+}
+
+.Contact_Us_start {
+  display: block;
+  margin: 70px auto 0 auto;
+  font-family: tahoma, sans-serif;
+}
+
+#Contact_Main {
+  color: black;
+  background-color: grey;
+  margin: 0px, auto;
+  text-align: center;
 }
