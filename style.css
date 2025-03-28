@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+/*NAVIGATION BAR*/
 #main {
   background-color: #414a4c;
 }
@@ -54,12 +55,9 @@ li a {
   background: transparent;
 }
 
+/*START MAIN*/
 .Start_Main {
   text-align: center;
-  margin-top: 70px;
-}
-
-.Start_ContactUs {
   margin-top: 70px;
 }
 
@@ -82,15 +80,67 @@ li a {
   border: 5px solid #8b0000;
 }
 
+/*CONTACT US PAGE*/
+
 .Contact_Us_start {
   display: block;
-  margin: 70px auto 0 auto;
+  margin-top: 70px;
   font-family: tahoma, sans-serif;
 }
 
-#Contact_Main {
-  color: black;
-  background-color: grey;
-  margin: 0px, auto;
+.Start_ContactUs {
+  margin-top: 70px;
+}
+
+.Contact_window {
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  background-color: white;
+  border: 2px solid white;
+}
+#Contact_Us_title {
+  height: 80px;
   text-align: center;
+  background-color: black;
+}
+
+#title {
+  height: 80px;
+  margin: 0px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2em;
+  font-weight: 200;
+  color: white;
+}
+
+.Contact_body {
+  background-color: #414a4c;
+}
+.input_window {
+  margin: 10px 30px;
+  width: 90%;
+}
+
+.input_titles {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 0px 30px;
+  /* margin-top: 200px; */
+}
+
+/*MINUCIPALITY LAYOUT*/
+#mun_layout_body {
+  background-color: #414a4c;
+}
+
+#mun_start {
+  margin-top: 70px;
+}
+
+.mun_candidates_details {
+  display: inline-block;
+  text-align: center;
+  margin-top: 
 }
